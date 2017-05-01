@@ -14,3 +14,5 @@ with open(metadata_path, 'r') as f:
     confs = configure_sphinx_design_doc(f)
 g = globals()
 g.update(confs)
+
+extensions += ['nbsphinx']
