@@ -16,3 +16,6 @@ g = globals()
 g.update(confs)
 
 extensions += ['nbsphinx']
+
+# Assume notebook is pre-computed; we don't have the LSST Pipelines on Travis.
+nbsphinx_execute = 'never'
