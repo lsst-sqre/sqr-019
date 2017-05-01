@@ -2,3 +2,4 @@ Sphinx>=1.4.6
 documenteer>=0.1.9
 lsst-dd-rtd-theme
 nbsphinx==0.2.13
+jupyter==1.0.0
